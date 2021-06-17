@@ -3,3 +3,6 @@ Description: This project is considered a refactor - I modified existing code to
 
 file:///Users/maryamguppy/Desktop/Assignments/refactor/index.html#social-media-marketing
 
+![alt text](assets/images/Screenshot.png) 
+
+Credits - w3schools.com used as a reference

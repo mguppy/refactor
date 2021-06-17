@@ -11,7 +11,7 @@ body {
 }
 
 /* Formats the header section */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /* Formats Horiseon text line */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Gives the "seo" part of Horiseon a gray text */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Formats the banner with the three links */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /* Formats the list type for the banner with the three links */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 /* Formats the line items for the banner to be inline */
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -84,7 +84,7 @@ p {
 }
 
 /* Formats the content section to be inline */
-.content {
+.explanations {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -103,37 +103,27 @@ p {
 }
 
 /* Formats the benefits paragraghs */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
 /* Formats the benefits headers */
-.benefit-lead h3, 
-.benefit-brand h3,
-.benefit-cost h3
-{
+.benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Formats the benefits images */
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img 
- {
+.benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Formats the explanations paragraghs */
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing
- {
+.explanations div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,24 +133,18 @@ p {
 }
 
 /* Formats the explanations images */
-.online-reputation-management img,
-.search-engine-optimization img,
-.social-media-marketing img
- {
+.explanations img {
     max-height: 200px;
 }
 
 /* Formats the explanations headers */
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2
- {
+.explanations h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Formats the footer section */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
